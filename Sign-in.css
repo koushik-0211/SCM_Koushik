@@ -33,4 +33,29 @@
     margin-left: 585px;
   }
 }
+@media (max-width: 991px) {
+  .u-section-1 .u-btn-1 {
+    margin-left: 162px;
+  }
 
+  .u-section-1 .u-btn-2 {
+    margin-right: 0;
+    margin-left: 427px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-btn-2 {
+    margin-left: 247px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-btn-1 {
+    margin-left: auto;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: auto;
+  }
+}
